@@ -1,1 +1,1 @@
-# ToDoList
+This is a text based user interface via the command line ToDoList application. The features of this application is: A user can create new tasks, assign them a title, due date, the project name and also the current status. A user can also edit the created task, delete the task or mark as completed. All tasks are saving in to the file.
