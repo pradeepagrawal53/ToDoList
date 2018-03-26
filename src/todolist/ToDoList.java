@@ -1,4 +1,3 @@
-
 package todolist;
 
 import java.util.ArrayList;
@@ -27,10 +26,10 @@ public class ToDoList {
             int value = 0;
             value = homePage.homePage();
             switch(value){
-                case 1:     showTask.showDisplay(tasks);
+                case 1:     addTask.showDisplay(tasks);
                             flag = true;
                             break;
-                case 2:     addTask.showDisplay(tasks);
+                case 2:     showTask.showDisplay(tasks);
                             flag = true;
                             break;
                 default:    flag = false;

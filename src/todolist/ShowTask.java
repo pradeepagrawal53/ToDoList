@@ -1,4 +1,3 @@
-
 package todolist;
 
 import java.util.ArrayList;
@@ -21,9 +20,5 @@ public class ShowTask {
         }
 
     }
-
-    public void showMenu() {
-
-    }
-    
+   
 }

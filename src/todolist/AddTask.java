@@ -1,4 +1,3 @@
-
 package todolist;
 
 import java.io.BufferedReader;
@@ -46,15 +45,13 @@ public class AddTask {
                     default:
                         System.out.println("Please enter either NEW, INPROGRESS or COMPLETED.");
                 }
+                
             } while(flag);
-            tasks.add(newTask);
+                tasks.add(newTask);
         } catch (ParseException|IOException e){
-            System.out.println(e.getMessage());
+                System.out.println(e.getMessage());
         }
        
     }
 
-    public void showMenu() {
-
-    }
 }

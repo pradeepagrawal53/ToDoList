@@ -1,4 +1,3 @@
-
 package todolist;
 
 import java.io.BufferedReader;
@@ -18,7 +17,7 @@ public class HomePage {
         int value = 0;
         System.out.println();
         System.out.println("WELCOME TO MY TO-DO LIST");
-        System.out.println("Pick an option");
+        System.out.println("Select an option");
         System.out.println();
        
         value = homeMenu();
@@ -32,8 +31,8 @@ public class HomePage {
         String status = "";
         try {
             BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-                System.out.println("1. Show Task");
-                System.out.println("2. Add Task");
+                System.out.println("1. Add Task");
+                System.out.println("2. Show Task");
                 System.out.println("3. Edit Task");
                 System.out.println("4. Exit");
                 System.out.println();
