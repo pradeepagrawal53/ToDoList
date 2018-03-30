@@ -1,7 +1,8 @@
 package todolist;
 
 /**
- * @author Pradeep
+ * Contains the main method.
+ * Starts the application.
  */
 public class Main {
     

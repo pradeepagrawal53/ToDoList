@@ -9,10 +9,11 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 
 /**
- * @author Pradeep
+ * The view for adding a task.
  */
 public class AddTask {
 
+    // creates an instance of AddTask.
     public AddTask() {
     }
 

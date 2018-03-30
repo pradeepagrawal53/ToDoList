@@ -3,7 +3,7 @@ package todolist;
 import java.util.Date;
 
 /**
- * @author Pradeep
+ * Represents one particular task.
  */
 public class Task {
 
@@ -12,6 +12,13 @@ public class Task {
     private Date dueDate;
     private Status status; 
     
+    /**
+     * Creates a new instance of Task.
+     * @param name The name of the task.
+     * @param project The project the task belongs to.
+     * @param dueDate The end date of the task to be finished.
+     * @param status The current state of the task.
+     */
     public Task(String name, String project, Date dueDate, Status status) {
         this.name = name;
         this.project = project;

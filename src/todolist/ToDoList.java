@@ -3,7 +3,7 @@ package todolist;
 import java.util.ArrayList;
 
 /**
- * @author Pradeep
+ * The class to handle the task.
  */
 public class ToDoList {
     
@@ -12,6 +12,7 @@ public class ToDoList {
     private HomePage homePage;
     private ShowTask showTask;
 
+    // Creates an instance of ToDoList.
     public ToDoList() {
 
         tasks = new ArrayList<>();

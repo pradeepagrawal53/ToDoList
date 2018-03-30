@@ -3,10 +3,11 @@ package todolist;
 import java.util.ArrayList;
 
 /**
- * @author Pradeep
+ * The view for showing the tasks.
  */
 public class ShowTask {
 
+    // creates an instance of ShowTask.
     public ShowTask() {
     }
 

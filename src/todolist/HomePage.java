@@ -5,13 +5,15 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 /**
- * @author Pradeep
+ * The view for applications home page.
  */
 public class HomePage {
     
+    //creates an instance of HomePage.
     public HomePage() {
     }
 
+    // Prints the applications home page heading.
     public int homePage(){
 
         int value = 0;
@@ -25,6 +27,7 @@ public class HomePage {
         return value;
     }
 
+    // Prints the possible options on same home page.
     public int homeMenu(){
 
         int value = 0;
