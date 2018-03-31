@@ -1,4 +1,6 @@
-package todolist;
+package se.kth.sda3.todolist.startup;
+
+import se.kth.sda3.todolist.controller.ToDoList;
 
 /**
  * Contains the main method.
