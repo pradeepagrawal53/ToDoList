@@ -1,5 +1,6 @@
-package todolist;
+package se.kth.sda3.todolist.view;
 
+import se.kth.sda3.todolist.model.Task;
 import java.util.ArrayList;
 
 /**

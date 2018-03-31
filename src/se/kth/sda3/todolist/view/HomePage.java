@@ -1,4 +1,4 @@
-package todolist;
+package se.kth.sda3.todolist.view;
 
 import java.io.BufferedReader;
 import java.io.IOException;

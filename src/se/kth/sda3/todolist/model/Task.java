@@ -1,5 +1,6 @@
-package todolist;
+package se.kth.sda3.todolist.model;
 
+import se.kth.sda3.todolist.model.Status;
 import java.util.Date;
 
 /**
