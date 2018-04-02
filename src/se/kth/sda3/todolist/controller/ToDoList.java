@@ -2,7 +2,6 @@ package se.kth.sda3.todolist.controller;
 
 import se.kth.sda3.todolist.model.Task;
 import se.kth.sda3.todolist.view.AddTask;
-import se.kth.sda3.todolist.view.AddTask;
 import se.kth.sda3.todolist.view.HomePage;
 import se.kth.sda3.todolist.view.ShowTask;
 import java.util.ArrayList;
@@ -37,7 +36,7 @@ public class ToDoList {
                             break;
                 case 2:     showTask.showDisplay(tasks);
                             flag = true;
-                            break;
+                            break;                          
                 default:    flag = false;
                             break;
             }
